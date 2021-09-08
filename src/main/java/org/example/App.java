@@ -16,6 +16,9 @@ public class App
     String quote = scanner.nextLine();
     System.out.println( "Who said it? " );
     String author = scanner.nextLine();
-    System.out.print( author+ " says, \""+quote+"\"");}
+    String f1 = author.concat(" says, \"");
+    String f2 = f1.concat(quote);
+    String f3 = f2.concat("\"");
+    System.out.print( f3);}
 
 }
